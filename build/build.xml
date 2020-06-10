@@ -387,13 +387,13 @@
     <mkdir dir="${staging_folder}/work" />
 
     <antcall target="unzip">
-      <param name="archive_file" value="${staging_folder}/appbundler-1.0ea-arduino6.jar.zip" />
-      <param name="archive_url" value="https://downloads.arduino.cc/appbundler-1.0ea-arduino6.jar.zip" />
-      <param name="final_folder" value="${staging_folder}/appbundler-1.0ea-arduino6" />
-      <param name="dest_folder" value="${staging_folder}/appbundler-1.0ea-arduino6" />
+      <param name="archive_file" value="${staging_folder}/appbundler-1.0ea-12422ee.jar.zip" />
+      <param name="archive_url" value="https://downloads.arduino.cc/appbundler-1.0ea-12422ee.jar.zip" />
+      <param name="final_folder" value="${staging_folder}/appbundler-1.0ea-12422ee" />
+      <param name="dest_folder" value="${staging_folder}/appbundler-1.0ea-12422ee" />
     </antcall>
 
-    <taskdef name="bundleapp" classname="com.oracle.appbundler.AppBundlerTask" classpath="${staging_folder}/appbundler-1.0ea-arduino6/appbundler-1.0ea-arduino6.jar"/>
+    <taskdef name="bundleapp" classname="com.oracle.appbundler.AppBundlerTask" classpath="${staging_folder}/appbundler-1.0ea-12422ee/appbundler-1.0ea-12422ee.jar"/>
 
     <bundleapp
             jvmRequired="1.8"
